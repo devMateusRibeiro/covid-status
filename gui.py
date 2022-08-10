@@ -1,10 +1,5 @@
 from tkinter import *
 
-##  [sg.Text('Estatísticas do COVID-19')],
-##  [sg.Text('Infectados'),sg.Text('Recuperados'),sg.Text('Mortes')],
-##  [sg.Text('*'),sg.Text('*'),sg.Text('*')],
-##  [sg.Text('*'),sg.Text('*'),sg.Text('*')]
-
 janela = Tk()
 
 ##PRIMEIRA LINHA - Título
@@ -32,6 +27,7 @@ quantidade_mortes = Label(janela, text="----")
 quantidade_mortes.grid(column=2, row=2)
 
 ##QUARTA LINHA - Input do país
+
 botao = Button(janela, text="Consultar")
 botao.grid(column=2, row=3)
 
