@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter.ttk import Combobox
 
 janela = Tk()
+janela.title("Janela Principal")
 
 ##PRESETS
 fonte_padrao = {"font": (None, 16)}
